@@ -21,7 +21,7 @@ class Config:
         self.debug_mode = os.getenv("DEBUG_MODE", "False").lower() == "true"
         
         # API配置
-        self.api_key = os.getenv("DEEPSEEK_API_KEY", "sk-b92cee1642e34f0a84b08227410d01b5")
+        self.api_key = os.getenv("DEEPSEEK_API_KEY", "你的API_KEY")
         self.api_base_url = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
         
         # 聊天历史配置

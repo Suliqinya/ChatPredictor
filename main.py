@@ -21,6 +21,7 @@ from src.utils.config import Config
 load_dotenv()
 
 def main():
+    print("运行程序前，请确保已经配置好DeepSeek的API_KEY")
     """程序主入口"""
     # 初始化配置
     config = Config()
